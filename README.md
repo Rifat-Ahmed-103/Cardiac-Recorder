@@ -34,9 +34,9 @@ eating heatlthy food and exercising on a daily basis.
 
 **4. Delete Measurement:** User can Delete a particular measurment, if he/she thinks that this measurement can't be useful anymore.
 
-**5. Comment: User can Comment about the measured data while adding a new measurement & also later update them.
+**5. Comment:** User can Comment about the measured data while adding a new measurement & also later update them.
 
-**6. Flagged Measurement: If measurement added by user have some unusual data of blood pressure or heart rate, the new list will be reddish in color highlighting the oddness of the record.
+**6. Flagged Measurement:** If measurement added by user have some unusual data of blood pressure or heart rate, the new list will be reddish in color highlighting the oddness of the record.
 
 ## Project Screenshots
 ![Splash Screen](https://user-images.githubusercontent.com/102896728/175805778-8c4e40fd-5b37-4ea2-9057-f87d577276a8.svg)
