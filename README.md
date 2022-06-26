@@ -39,4 +39,8 @@ eating heatlthy food and exercising on a daily basis.
 **6. Flagged Measurement: If measurement added by user have some unusual data of blood pressure or heart rate, the new list will be reddish in color highlighting the oddness of the record.
 
 ## Project Screenshots
+![Splash Screen](https://user-images.githubusercontent.com/102896728/175805778-8c4e40fd-5b37-4ea2-9057-f87d577276a8.svg)
+![Home Page](https://user-images.githubusercontent.com/102896728/175805946-097a483a-3a1e-48ea-87df-f47795d6aadc.svg)
+![Add Measurement](https://user-images.githubusercontent.com/102896728/175805963-08407e09-945e-4d99-a95c-6e6471682dee.svg)
+![Update Measurement](https://user-images.githubusercontent.com/102896728/175805941-2c7d7c6b-d096-491a-8287-86d4f506278b.svg)
 
