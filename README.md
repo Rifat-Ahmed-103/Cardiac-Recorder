@@ -44,3 +44,11 @@ eating heatlthy food and exercising on a daily basis.
 ![Add Measurement](https://user-images.githubusercontent.com/102896728/175805963-08407e09-945e-4d99-a95c-6e6471682dee.svg)
 ![Update Measurement](https://user-images.githubusercontent.com/102896728/175805941-2c7d7c6b-d096-491a-8287-86d4f506278b.svg)
 
+
+## UML Diagram
+![UML](https://user-images.githubusercontent.com/102896728/175807220-ecf1356c-8056-4e6e-b145-55fe812d374f.png)
+
+## UI Flow
+![UI flow](https://user-images.githubusercontent.com/102896728/175807222-e939354d-c0ea-4b5a-8b20-1cfbd4aaf5f2.jpg)
+
+
