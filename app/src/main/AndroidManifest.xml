@@ -13,17 +13,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CardiacRecord"
         tools:targetApi="31">
+<!--        <activity-->
+<!--            android:name=".SplashScreen"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".UpdateActivity"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".DetailsActivity"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".MainActivity"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+
         <activity
-            android:name=".SplashScreen"
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddActivity"
             android:exported="false" />
         <activity
             android:name=".UpdateActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,6 +50,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
