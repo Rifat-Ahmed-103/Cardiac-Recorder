@@ -1,44 +1,39 @@
 # CardiacRecorder
-'CardiacRecorder' is a application which keeps records of measured Blood pressure and Heart rate data of any User with proper Date & Time.
-Anyone can add measurement of his/her Blood pressure and Heart rate data which will be shown in a list at the home page of the app.
-To add a new measurement, user have to press "Add" button and it will take him to a new View where there exists a form requiring data
-about Date of measurement, Time of measuremrnt, Systolic blood pressure, Diastolic blood pressure , Heart rate and any Comment 
-of the user which is optional to fill up. Then if he clicks "Save" button , a new measurement will be appended at the bottom of the list of the records in the home
-page of the app. If the measured record have any unusal data about blood pressure and heart rate then the record will be Reddish in color.
-Again if the user thinks that they want to edit the previously recorded data , he can dobble-tap the measurement from the list and it will take him
-to  a new View where he can edit the values in each part of the form and then click "Update" button. The list will be updated in the home page.
-Now, if he want to see the details of a particular measurement he can double-tap on any record & it will take him to a view where he can 
-see & also edit the data there. Lastly if he thinks that he want to delete any record that is not neccessary anymore, he can delete  the record and click the
-"Delete" button which will delete the record from the list. As there will be all measured record of their health in a list side by side,
-they can compare records from the record list  to get a Clear Picture of their health status and take neccesary action according to the data including 
-eating heatlthy food and exercising on a daily basis.
+**CardiacRecorder** is an Application which keeps Record of Measured **Blood Pressure** and **Heart Rate** data of any User with **Proper Date & Time**.
+You can **Add, View, Update and Delete** measurement of your Blood pressure and Heart rate data which will be shown in a list at the Home page of the app.
 
+To add a new measurement, you have to press **Add a new Measurement** button at the bottom and it will take you to a new View named **Add Measurement** Page where exists a form requiring data about Date of measurement, Time of measuremrnt, Systolic blood pressure, Diastolic blood pressure , Heart rate and any Comment of the user if exists which is optional to fill up. Now if you click **Save** button, the new measurement will be Appended at the bottom of the list of the records in the home page of the App. If the measured record have any **Unusual data** about blood pressure and heart rate then there will appear a **Red Box** at the **Top-Right** Corner of the record indicating some or all inserted data are Unusual. And If the measured record does not have any Unusual data then there will appear a **Green Box** indicating all inserted data are Normal.
 
+Now, if you want to view the **Details** of any Previously Recorded Measurement, you can simply **Tap** on the record & it will take you to a new View named **Measurement Details** Page where he can See the Inserted Values in each part of the form. If you find any Inconsistency, you can press back & go to Home page and then press the **Edit** button at **Bottom-Right** of that record and it will take you to a new View named **Update Measurement** Page where you can Edit the Inserted Values in each part of the form and then click **Update** button.
 
-## Objectives
-* To show a list of measurements consisting Blood pressure, Heart rate and Date of Measurement
-* To add a new measurement which always appends to the bottom end of the list
-* To view and edit the details of an existing measurement
-* To delete any measurement that is not required anymore
-* To see unusual blood pressures highlighted or flagged.
+Again, if you want to **Edit** the Previously Recorded Data, you can simply press the **Edit Icon** at **Bottom-Right** of that record and it will take you to a new View named **Update Measurement** Page where you can Edit the Inserted Values in each part of the form and then click **Update** button. The list will be updated in the Home page. Now, If the Newly Edited record have any **Unusual data**, then there will appear a **Red Box** at the **Top-Right** Corner of the record indicating some or all inserted data are Unusual. And If the Edited record does not have any Unusual data then there will appear a **Green Box** indicating all inserted data are Normal.
+
+Lastly, if you want to **Delete** any record that is not neccessary anymore, you can delete the record and click the **Delete Icon** at **Bottom-Left** of that record and it will delete the record from the list.
+
+As there will be All measured record of your health in a list side by side, you can Compare records of you Health Status from the Record List and get a **Clear Picture of the trajectory of your health status** whether your health is getting Better or Deteriorating. Thus you can take neccesary actions to Stay Healthy including eating heatlthy food and exercising on a daily basis.
 
 
 
 ## Features
 
-**1. Measurement List:** User can see his Blood pressure and Heart rate data of current as well as all previous measurements as a list where the latest measurement is shown at the bottom of the list.
+**1. Measurement List:** User can Record and View his Blood Pressure and Heart Rate data of Current as well as All Previous Measurements as a list where the latest measurement is shown at the bottom of the list.
 
-**2. Add Measurement:** User can Add current measurement of Blood presure and Heart rate with proper Date and Time  to easily track their health status throughout a period of time.
+**2. Add Measurement:** User can Add current measurement of Blood Presure and Heart Rate with Proper Date and Time to easily track their Health Status throughout a period of time.
 
-**3. Update Measurement:** User also can Edit or Update their measurement records after it has been appended to the measurement list if there was any error while recording the measurement. 
+**3. View Measurement:** User can View a particular measurement in details as all details are not added in Home Page.
 
-**4. Delete Measurement:** User can Delete a particular measurment, if he/she thinks that this measurement can't be useful anymore.
+**4. Update Measurement:**  if there was any Error while recording the measurement, User can Edit or Update their measurement records after it has been appended to the measurement list.
 
-**5. Comment:** User can Comment about the measured data while adding a new measurement & also later update them.
+**5. Delete Measurement:** User can Delete a particular measurment, if hethinks that this measurement can't be useful anymore.
 
-**6. Flagged Measurement:** If measurement added by user have some unusual data of blood pressure or heart rate, the new list will be reddish in color highlighting the oddness of the record.
+**6. Comment:** User can Comment about the measured data while adding a new measurement and he also can update them later.
+
+**7. Flagged Measurement:** If measurement added by user have some Unusual data of blood pressure or heart rate, then there will appear a **Red Box** at the **Top-Right** Corner of the record indicating some or all inserted data are Unusual highlighting the **Oddness of the record** and If everything is normal, then a **Green Box** will appear highlighting the **Correctness of the record**.
+
+
 
 ## Project Screenshots
+
 ### Splash Screen:
 ![splash_screen](https://user-images.githubusercontent.com/102896988/180838528-bac7886a-0dd3-4249-a48e-0c4a7c6ae6c7.jpg)
 
@@ -53,6 +48,10 @@ eating heatlthy food and exercising on a daily basis.
 
 ### Update Measurement:
 ![update_measurement](https://user-images.githubusercontent.com/102896988/180839423-c440da66-1b8f-4ca3-9835-f8edc8b557a9.jpg)
+
+### Delete Measurement:
+![delete_measurement](https://user-images.githubusercontent.com/102896728/181247610-8bd482e3-b62f-43f2-a366-f86c829b6cc1.jpg)
+
 
 ## UML Diagram
 ![UML](https://user-images.githubusercontent.com/102896728/175807220-ecf1356c-8056-4e6e-b145-55fe812d374f.png)
