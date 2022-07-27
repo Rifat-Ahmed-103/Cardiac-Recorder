@@ -39,16 +39,25 @@ eating heatlthy food and exercising on a daily basis.
 **6. Flagged Measurement:** If measurement added by user have some unusual data of blood pressure or heart rate, the new list will be reddish in color highlighting the oddness of the record.
 
 ## Project Screenshots
-![Splash Screen](https://user-images.githubusercontent.com/102896728/175805778-8c4e40fd-5b37-4ea2-9057-f87d577276a8.svg)
-![Home Page](https://user-images.githubusercontent.com/102896728/175805946-097a483a-3a1e-48ea-87df-f47795d6aadc.svg)
-![Add Measurement](https://user-images.githubusercontent.com/102896728/175805963-08407e09-945e-4d99-a95c-6e6471682dee.svg)
-![Update Measurement](https://user-images.githubusercontent.com/102896728/175805941-2c7d7c6b-d096-491a-8287-86d4f506278b.svg)
+### Splash Screen:
+![splash_screen](https://user-images.githubusercontent.com/102896988/180838528-bac7886a-0dd3-4249-a48e-0c4a7c6ae6c7.jpg)
 
+### Home Screen:
+![home_screen](https://user-images.githubusercontent.com/102896988/180838576-55ae0ffb-96e5-4d42-9985-622e4500232e.jpg)
+
+### Add Measurement:
+![add_measurement](https://user-images.githubusercontent.com/102896988/180838591-016dbaaa-f795-47f0-b19d-50f29a6790ad.jpg)
+
+### Measurement Details:
+![measurement_details](https://user-images.githubusercontent.com/102896988/180839401-ae1932d0-5a71-4e1e-b18d-a6d024632547.jpg)
+
+### Update Measurement:
+![update_measurement](https://user-images.githubusercontent.com/102896988/180839423-c440da66-1b8f-4ca3-9835-f8edc8b557a9.jpg)
 
 ## UML Diagram
 ![UML](https://user-images.githubusercontent.com/102896728/175807220-ecf1356c-8056-4e6e-b145-55fe812d374f.png)
 
 ## UI Flow
-![UI flow](https://user-images.githubusercontent.com/102896728/175807222-e939354d-c0ea-4b5a-8b20-1cfbd4aaf5f2.jpg)
+![ui_flow](https://user-images.githubusercontent.com/102896988/180839463-6fa2d795-3d3b-4b39-9087-296a01f4c229.jpg)
 
 
