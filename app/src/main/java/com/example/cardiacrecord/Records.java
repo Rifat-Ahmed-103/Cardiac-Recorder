@@ -3,6 +3,7 @@ package com.example.cardiacrecord;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Records {
     public static ArrayList<ModelClass> mcl = new ArrayList<>();
 
