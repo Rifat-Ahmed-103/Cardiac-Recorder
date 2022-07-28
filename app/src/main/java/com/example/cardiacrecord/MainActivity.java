@@ -1,9 +1,5 @@
 package com.example.cardiacrecord;
 
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -11,10 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.cardiacrecord.AddActivity;
-import com.example.cardiacrecord.ModelClass;
-import com.example.cardiacrecord.TaskAdapter;
-import com.example.cardiacrecord.UpdateActivity;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -22,38 +17,40 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
     private RecyclerView recyclerView1;
     public static TaskAdapter adapter;
 
-
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
-    com.example.cardiacrecord.ModelClass modelclass;
+    ModelClass modelclass;
     Gson gson;
 
 
 
     Button button;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         button = findViewById(R.id.add_btn);
         retrieveData();
+
+
+
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(com.example.cardiacrecord.MainActivity.this, AddActivity.class);
+                Intent intent = new Intent(MainActivity.this, AddActivity.class);
                 startActivity(intent);
             }
         });
 
         recyclerView1=findViewById(R.id.recyclerView);
-        adapter = new TaskAdapter(com.example.cardiacrecord.MainActivity.this, Records.mcl);
+        adapter = new TaskAdapter(MainActivity.this, Records.mcl);
         recyclerView1.setAdapter(adapter);
         adapter.setClickListener(new TaskAdapter.ClickListener() {
             @Override
@@ -66,17 +63,20 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
+
             @Override
             public void onDeleteClick(int position) {
-                Records.mcl.remove(position);
+                //Records.mcl.remove(position);
+                new Records().deleteRecord(position);
                 adapter.notifyItemRemoved(position);
                 saveData();
-                Toast.makeText(com.example.cardiacrecord.MainActivity.this,"Record Successfully Deleted",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Record Successfully Deleted",Toast.LENGTH_SHORT).show();
             }
+
 
             @Override
             public void onEditClick(int position) {
-                Intent intent = new Intent(com.example.cardiacrecord.MainActivity.this, UpdateActivity.class);
+                Intent intent = new Intent(MainActivity.this, UpdateActivity.class);
                 intent.putExtra("index",position);
                 startActivity(intent);
             }
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void DetailClick(int position) {
-                Intent intent1 = new Intent(com.example.cardiacrecord.MainActivity.this, DetailsActivity.class);
+                Intent intent1 = new Intent(MainActivity.this, DetailsActivity.class);
                 intent1.putExtra("index",position);
                 startActivity(intent1);
             }
@@ -92,7 +92,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
 
 
     private void saveData()
