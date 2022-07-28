@@ -13,4 +13,19 @@ public class Records {
         }
         mcl.add(modelClass);
     }
+    public void deleteRecord(int position){
+
+
+        if (position>=0 && position<mcl.size()) {
+            mcl.remove(position);
+        }
+        else {
+            throw new IllegalArgumentException() ;
+        }
+
+
+    }
+    public int  count(){
+        return  mcl.size();
+    }
 }

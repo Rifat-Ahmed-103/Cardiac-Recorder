@@ -57,6 +57,8 @@ As there will be All measured record of your health in a list side by side, you 
 ![UML](https://user-images.githubusercontent.com/102896728/175807220-ecf1356c-8056-4e6e-b145-55fe812d374f.png)
 
 ## UI Flow
-![ui_flow](https://user-images.githubusercontent.com/102896988/180839463-6fa2d795-3d3b-4b39-9087-296a01f4c229.jpg)
+![UI_flow](https://user-images.githubusercontent.com/102896988/181231860-0af04fac-9559-4a5a-aa8b-e14eda433100.jpg)
+
+
 
 
